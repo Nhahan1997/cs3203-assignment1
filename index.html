@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>REST API Tweet</title>
+</head>
+<body>
+    <h1>REST API Tweet</h1>
+    <!-- button to get all tweet -->
+    <button id="getAll-button">GET All Tweet</button> <br>
+    <!--button to get all user name, screen_name and id  -->
+    <button id="getALL-users-id">GET USER'S ID</button>
+    <!-- form to get input of tweet and id to create a new tweet -->
+    <form id="create-form">
+        <button>Create Tweet</button> <br> 
+        <div class="block">
+            <label>Text</label>
+            <input type="text" id="create-text-input" />
+        </div>
+        <div class="block">
+            <label>Id</label>
+            <input type="text" id="create-id-input"/>
+        </div>
+    </form>
+
+    <hr>
+    <!-- table -->
+    <tbody></tbody>
+    <table>
+        <thread>
+            <tr>
+                <th></th>
+                <th></th>
+                <th></th>
+                
+            </tr>
+        </thread>    
+        <!-- <tbody></tbody> -->
+    </table>
+
+    <script src="jquery.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
