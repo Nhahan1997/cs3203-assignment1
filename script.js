@@ -1,4 +1,10 @@
 $(function() {
+    //asignment2, question 9
+    function test_print(){
+
+         console.log(“test code”)
+
+    }
     // GET all tweet
     $('#getAll-button').on('click', function() {
         //call showTweet function
